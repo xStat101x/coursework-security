@@ -1,0 +1,40 @@
+Sep 13 14:30:00 server1 systemd[2930]: INFO - Network interface down
+Sep 13 14:30:45 server1 kernel[7940]: DEBUG - Service restarted
+Sep 13 14:31:30 server1 kernel[4382]: ERROR - Unauthorized access attempt detected
+Sep 13 14:32:15 server1 systemd[5008]: DEBUG - Configuration file updated
+Sep 13 14:33:00 server1 systemd[2362]: ERROR - Failed password attempt
+Sep 13 14:33:45 server1 nginx[8057]: WARNING - Firewall policy applied
+Sep 13 14:34:30 server1 systemd[4018]: WARNING - System startup completed
+Sep 13 14:35:15 server1 kernel[9902]: ERROR - Kernel module loaded
+Sep 13 14:36:00 server1 kernel[5297]: WARNING - User login successful
+Sep 13 14:36:45 server1 nginx[9349]: WARNING - Network interface down
+Sep 13 14:37:30 server1 sshd[7584]: DEBUG - System startup completed
+Sep 13 14:38:15 server1 systemd[9684]: DEBUG - Kernel module loaded
+Sep 13 14:39:00 server1 systemd[4581]: DEBUG - Service restarted
+Sep 13 14:39:45 server1 kernel[4899]: DEBUG - Kernel module loaded
+Sep 13 14:40:30 server1 nginx[8470]: INFO - Service restarted
+Sep 13 14:41:15 server1 nginx[6579]: DEBUG - Configuration file updated
+Sep 13 14:42:00 server1 systemd[6262]: DEBUG - Network interface down
+Sep 13 14:42:45 server1 kernel[7067]: DEBUG - System startup completed
+Sep 13 14:43:30 server1 nginx[4480]: DEBUG - Disk usage exceeds threshold
+Sep 13 14:44:15 server1 nginx[8596]: WARNING - Network interface down
+Sep 13 14:45:00 server1 nginx[4828]: DEBUG - Firewall policy applied
+Sep 13 14:45:45 server1 kernel[4464]: DEBUG - Kernel module loaded
+Sep 13 14:46:30 server1 sshd[9938]: INFO - User login successful
+Sep 13 14:47:15 server1 sshd[3355]: INFO - Unauthorized access attempt detected
+Sep 13 14:48:00 server1 nginx[6958]: DEBUG - Service restarted
+Sep 13 14:48:45 server1 systemd[8446]: DEBUG - Kernel module loaded
+Sep 13 14:49:30 server1 systemd[8664]: INFO - Disk usage exceeds threshold
+Sep 13 14:50:15 server1 systemd[1419]: INFO - User login successful
+Sep 13 14:51:00 server1 systemd[6005]: WARNING - Service restarted
+Sep 13 14:51:45 server1 systemd[6221]: INFO - Service restarted
+Sep 13 14:52:30 server1 nginx[5905]: INFO - Configuration file updated
+Sep 13 14:53:15 server1 nginx[8329]: ERROR - System startup completed
+Sep 13 14:54:00 server1 nginx[1850]: INFO - Disk usage exceeds threshold
+Sep 13 14:54:45 server1 sshd[3906]: DEBUG - System startup completed
+Sep 13 14:55:30 server1 nginx[7235]: WARNING - Unauthorized access attempt detected
+Sep 13 14:56:15 server1 systemd[6750]: INFO - System startup completed
+Sep 13 14:57:00 server1 systemd[4230]: DEBUG - User login successful
+Sep 13 14:57:45 server1 nginx[9999]: WARNING - Service restarted
+Sep 13 14:58:30 server1 sshd[7781]: INFO - User login successful
+Sep 13 14:59:15 server1 systemd[3699]: DEBUG - Failed password attempt
