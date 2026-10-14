@@ -1,0 +1,23 @@
+\[Sun Aug 24 00:00:02.497661 2025\] \[mpm_event:notice\] \[pid 891:tid 125052981004160\] AH00489: Apache/2.4.58 (Ubuntu) OpenSSL/3.0.13 configured \-- resuming normal operations
+\[Sun Aug 24 00:00:02.498320 2025\] \[core:notice\] \[pid 891:tid 125052981004160\] AH00094: Command line: \'/usr/sbin/apache2\'
+\[Sun Aug 24 00:03:26.909443 2025\] \[proxy_fcgi:error\] \[pid 767661:tid 125051546343104\] \[client 185.177.72.108:29862\] AH01071: Got error \'Primary script unknown\'
+\[Sun Aug 24 00:03:31.280563 2025\] \[proxy_fcgi:error\] \[pid 767661:tid 125051798025920\] \[client 185.177.72.108:29862\] AH01071: Got error \'Primary script unknown\'
+\[Sun Aug 24 00:03:32.731805 2025\] \[authz_core:error\] \[pid 767660:tid 125051621779136\] \[client 185.177.72.108:29880\] AH01630: client denied by server configuration: /var/www/html/.env
+\[Sun Aug 24 00:03:49.870850 2025\] \[proxy_fcgi:error\] \[pid 767660:tid 125051714098880\] \[client 185.177.72.108:19180\] AH01071: Got error \'Primary script unknown\'
+\[Sun Aug 24 00:03:59.852400 2025\] \[proxy_fcgi:error\] \[pid 767661:tid 125051756062400\] \[client 185.177.72.108:29862\] AH01071: Got error \'Primary script unknown\'
+\[Sun Aug 24 00:04:10.190878 2025\] \[authz_core:error\] \[pid 767661:tid 125051571521216\] \[client 185.177.72.108:8414\] AH01630: client denied by server configuration: /var/www/html/.env.example
+\[Sun Aug 24 00:04:11.545406 2025\] \[authz_core:error\] \[pid 767661:tid 125051454088896\] \[client 185.177.72.108:8414\] AH01630: client denied by server configuration: /var/www/html/.env.local
+\[Sun Aug 24 00:04:13.220696 2025\] \[authz_core:error\] \[pid 767661:tid 125051798025920\] \[client 185.177.72.108:8414\] AH01630: client denied by server configuration: /var/www/html/.env.old
+\[Sun Aug 24 00:04:14.975557 2025\] \[authz_core:error\] \[pid 767661:tid 125051739276992\] \[client 185.177.72.108:8414\] AH01630: client denied by server configuration: /var/www/html/.env.prod
+\[Sun Aug 24 00:04:16.949999 2025\] \[authz_core:error\] \[pid 767661:tid 125051772847808\] \[client 185.177.72.108:8414\] AH01630: client denied by server configuration: /var/www/html/.env.production.local
+\[Sun Aug 24 00:04:18.512623 2025\] \[authz_core:error\] \[pid 767661:tid 125051705706176\] \[client 185.177.72.108:8414\] AH01630: client denied by server configuration: /var/www/html/.env.stage
+\[Sun Aug 24 00:04:26.017330 2025\] \[authz_core:error\] \[pid 767661:tid 125051462481600\] \[client 185.177.72.108:8414\] AH01630: client denied by server configuration: /var/www/html/.git
+\[Sun Aug 24 00:04:40.608533 2025\] \[authz_core:error\] \[pid 767661:tid 125051579913920\] \[client 185.177.72.108:8414\] AH01630: client denied by server configuration: /var/www/html/.aws
+\[Sun Aug 24 00:05:55.184175 2025\] \[authz_core:error\] \[pid 767660:tid 125051688920768\] \[client 185.177.72.108:23636\] AH01630: client denied by server configuration: /var/www/html/.profile
+\[Sun Aug 24 00:06:35.855216 2025\] \[authz_core:error\] \[pid 767660:tid 125051630171840\] \[client 185.177.72.108:23636\] AH01630: client denied by server configuration: /var/www/html/.aws
+\[Sun Aug 24 01:44:19.636057 2025\] \[core:error\] \[pid 767660:tid 125051875514048\] \[client 45.131.108.170:42574\] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+\[Sun Aug 24 08:12:36.784795 2025\] \[core:error\] \[pid 767661:tid 125051764455104\] \[client 197.220.93.117:55414\] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+\[Sun Aug 24 17:38:07.899155 2025\] \[proxy_fcgi:error\] \[pid 767660:tid 125051722491584\] \[client 159.223.132.86:46884\] AH01071: Got error \'Primary script unknown\'
+\[Sun Aug 24 17:38:07.966861 2025\] \[proxy_fcgi:error\] \[pid 767661:tid 125051747669696\] \[client 159.223.132.86:46886\] AH01071: Got error \'PHP message: PHP Fatal error: Uncaught Error: Call to a member function loadSite() on null in /var/www/iam/\_iamConfig/iamConfig.php:56\\nStack trace:\\n#0 /var/www/iam/system/lib/grantFreedom.php(4): include_once()\\n#1 /var/www/iam/index.php(3): include_once(\'\...\')\\n#2 {main}\\n thrown in /var/www/iam/\_iamConfig/iamConfig.php on line 56\'
+\[Mon Aug 25 00:00:01.823140 2025\] \[mpm_event:notice\] \[pid 891:tid 125052981004160\] AH00493: SIGUSR1 received. Doing graceful restart
+AH00558: apache2: Could not reliably determine the server\'s fully qualified domain name, using 127.0.0.1. Set the \'ServerName\' directive globally to suppress this message
